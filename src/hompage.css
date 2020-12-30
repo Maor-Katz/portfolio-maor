@@ -1,0 +1,604 @@
+:root {
+    --section2-bg: #20232a;
+    --main-header-color: #61dafb
+}
+
+.AppHompage {
+    height: -webkit-fill-available;
+    font-family: 'Raleway', 'sans-serif';
+}
+
+/*HomeHeader*/
+.mobileView {
+    display: none;
+}
+
+.mobileWindow > * {
+    margin-top: 3px;
+}
+
+.Header {
+    height: 55px;
+    background-color: var(--section2-bg);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .20);
+}
+
+.headerLogo {
+    color: var(--main-header-color);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.headerBtns {
+    display: flex;
+}
+
+.headerBtns > * {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.headerBtn:hover {
+    color: var(--main-header-color);
+    cursor: pointer;
+}
+
+/*section 1*/
+.section1Container {
+    background-color: #303131;
+    opacity: 0.9;
+    min-height: 520px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.maorImg {
+    border-radius: 50%;
+    border: var(--main-header-color) 4px solid;
+    height: 350px;
+    width: 350px;
+    animation-name: right-to-left;
+    animation-duration: 2s;
+    margin-top: 55px;
+}
+
+.large-text {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    max-width: 330px;
+    /*margin-top: 70px;*/
+    display: inline-block;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+}
+
+.small-text {
+    font-size: 2rem;
+    max-width: 350px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 1.7;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+}
+.medium-font {
+    font-size: 1.4rem;
+}
+
+.fa-arrow-circle-down {
+    color: white;
+    font-size: 2rem;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+    padding-top: 10px;
+}
+
+.fa-arrow-circle-down:hover {
+    cursor: pointer;
+}
+
+/*section 2*/
+
+.section2Container {
+    padding: 52px 50px;
+    background-color: var(--section2-bg);
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+
+.categories {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 34px;
+}
+
+.specificCategory {
+    margin: 0 auto;
+    color: #303131;
+    width: 400px;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,.75);
+    border-radius: 2px;
+    position: relative;
+    height: 400px;
+    visibility: hidden;
+    background-color: #fff;
+    
+}
+
+.specificCategory:hover {
+    background-color: var(--main-header-color);
+    transition: 0.5s;
+    
+}
+.specificCategory:hover {
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, .9);
+}
+.categories > a {
+    flex: 0 35%;
+    margin-top: 20px;
+    display: block;
+    margin-left: 15px;
+}
+.hompageCategory{
+    flex: 0 35%;
+    margin-top: 20px;
+    display: block;
+    margin-left: 15px;
+}
+.imgCard {
+    width: inherit;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 100%;
+}
+
+.bottomCard {
+    padding: 8px;
+    position: absolute;
+    bottom: 0px;
+    color: var(--section2-bg);
+}
+
+.categoryName {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.personDetails {
+    font-size: 0.9rem;
+    height: 20px;
+    font-weight: bold;
+}
+
+.artlist-color {
+    color: var(--main-header-color);
+    font-weight: bold;
+}
+
+/*main text*/
+.large-text-section2 {
+    max-width: 230px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.9rem;
+    color: #ccc;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.large-text-section2-bottom {
+    font-size: 1.9rem;
+    color: #ccc;
+    text-align: center;
+    visibility: hidden;
+}
+
+.thingsList {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.specificThing {
+    width: 150px;
+    padding: 20px 50px 5px 50px;
+}
+
+.titleThing {
+    color: var(--main-header-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.descriptionThing {
+    font-size: 0.8rem;
+}
+
+.divider-animate {
+    height: 3px;
+    background-color: #fff;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 8px;
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 800px) {
+    .section2Container {
+        padding: 52px 20px;
+    }
+
+    .hamburgerHeader {
+        margin-right: 15px;
+    }
+
+    .specificCategory {
+        width: 300px;
+    }
+
+    .imgCard {
+        height: 80%;
+        margin-top: 20px;
+    }
+
+    .galeryImg {
+        max-width: 300px !important;
+        max-height: 300px !important;
+    }
+
+    .maorImg {
+        margin: 5px 20px;
+    }
+
+    .footerIcon:hover {
+        color: #fff !important;
+    }
+
+    .aboutParagraph {
+        width: unset;
+    }
+
+    .contactDetails {
+        flex: unset !important;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .contactForm {
+        flex: unset !important;
+        margin: 0 auto;
+        width: 100% !important;
+        padding: unset !important;
+    }
+
+    .oneLineContactInput::placeholder {
+        font-size: 10px;
+    }
+
+    .oneLineContactInput {
+        width: 100% !important;
+    }
+
+    .twoInputs {
+        display: block !important;
+    }
+
+    .headerBtns {
+        display: none;
+    }
+
+    .mobileView {
+        display: block;
+    }
+
+    .mobileWindow {
+        position: absolute;
+        top: 55px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0px 0px 10px 10px;
+        background-color: var(--section2-bg);
+        animation: top-to-bottom 0.5s forwards;
+        height: 0px;
+    }
+
+    .genericDetails {
+        text-align: left;
+        padding: 25px;
+        margin-top: 55px;
+    }
+}
+
+/*section 3*/
+
+.section3Container {
+    position: relative;
+}
+
+.bodyWrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.large-box-section3 {
+    color: #fff;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.large-text-section3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.checkList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.checkList li:before {
+    content: '✓ ';
+}
+
+.span-section3 {
+    padding-right: 25px;
+}
+
+.AboutMe {
+    background-color: #303131;
+    padding: 52px;
+
+}
+
+.aboutWrapper {
+    visibility: hidden;
+}
+
+.section3Title {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #ccc;
+    text-align: center;
+}
+
+.aboutDivider {
+    height: 3px;
+    background-color: #fff;
+    width: 60px;
+    margin: 0 auto;
+}
+
+.aboutParagraph {
+    color: #9f9f9f;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 5px;
+    line-height: 1.6;
+    width: 70%;
+    text-align: center;
+}
+
+.aboutConclusion {
+    color: #ccc;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.skillsList {
+    color: var(--main-header-color);
+    font-weight: bold;
+}
+
+.skillsDivider {
+    height: 10px;
+    width: 2px;
+    background-color: #ccc;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.downloadWrapperBtn {
+    text-align: center;
+    padding: 15px;
+}
+
+.footerHome {
+    height: 40px;
+    background-color: var(--section2-bg);
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myMail {
+    font-size: 0.9rem;
+}
+
+.socialIconsHome i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.footerIcon {
+    color: white;
+}
+
+.footerIcon:hover {
+    color: var(--main-header-color);
+}
+
+.small-text a {
+    display: inline-block;
+    min-width: 100px;
+    color: var(--main-header-color) !important;
+}
+
+.small-text a:visited {
+    color: var(--main-header-color) !important;
+}
+
+.small-text a:hover {
+    text-decoration: underline;
+}
+
+.galeryImg {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.mainColor {
+    color: var(--main-header-color);
+}
+
+@media screen and (min-width: 1800px) {
+    .section2Container {
+        background-size: cover;
+    }
+}
+
+.homepageBtn {
+    width: 200px;
+    height: 60px;
+    border-radius: 4px;
+    font-size: 24px;
+    margin-top: 30px;
+    outline: none;
+    transition: color .4s;
+    transition: background-color .4s;
+    cursor: pointer;
+    border: 3px solid var(--main-header-color);
+    background-color: #2b2c2c;
+    color: var(--main-header-color);
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.homepageBtn:hover {
+    cursor: pointer !important;
+    animation: hover-on-btn 0.5s forwards;
+}
+
+.active {
+    color: var(--main-header-color);
+}
+
+.ContactPage {
+    background-color: var(--section2-bg);
+    padding: 50px;
+}
+
+#ContactPage {
+    visibility: hidden;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.contactDetails {
+    flex: 1;
+}
+
+.contactForm {
+    flex: 1.3;
+    padding: 20px;
+    width: 80%;
+}
+
+.twoInputs {
+    display: flex;
+}
+
+.contactInfoTitle {
+    font-size: 22px;
+    color: #ccc;
+    padding: 20px 0px;
+}
+
+.greyColorFont {
+    color: rgb(116, 123, 133);
+}
+
+.myEmail {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.mailSpan {
+    margin-left: 10px;
+}
+
+.oneLineContactInput {
+    background-color: #363737;
+    border: none !important;
+    color: #707070;
+    border-radius: 2px;
+    height: 30px;
+    width: 90%;
+}
+
+.inputLabel {
+    color: #707070;
+    padding: 5px 0px;
+}
+
+.errorMsg {
+    color: red;
+}
+
+.medium-font {
+    font-size: 1.4rem;
+}
+
+.genericDetails {
+    text-align: left;
+    padding: 25px;
+    margin-top: 55px;
+}
+
+@media screen and (max-width: 650px) {
+    .categories > a{
+        margin-left: unset;
+    }
+    .hompageCategory {
+        margin-left: unset;
+    }
+}

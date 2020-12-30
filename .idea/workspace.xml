@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4ecd3f5-49c4-419c-8dd0-1666ca95a97c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ci8w036yatAjWQbdVaSVoP4Osg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="./Header&#9;FILE&#9;file://C:/Users/maor.katz/Desktop/porfolioMaor/portfolio/src/ShoppingCart/Header.js&#10;./ClothesList&#9;FILE&#9;file://C:/Users/maor.katz/Desktop/porfolioMaor/portfolio/src/ShoppingCart/ClothesList.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/DEV/my-app" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/../../../../maor.katz/Desktop/porfolioMaor/portfolio/node_modules/eslint" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maor\Desktop\portfolio\Portfolio-maor-fixRedux\src\images" />
+      <recent name="C:\Users\Maor\Desktop\portfolio\Portfolio-maor-fixRedux\src" />
+      <recent name="C:\Users\Maor\Desktop\portfolio\Portfolio-maor-fixRedux\images" />
+      <recent name="C:\Users\maor.katz\Desktop\porfolioMaor\portfolio\src\ShoppingCart\paymentShoping" />
+      <recent name="C:\Users\maor.katz\Desktop\porfolioMaor\portfolio\src\redux" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4ecd3f5-49c4-419c-8dd0-1666ca95a97c" name="Default" comment="" />
+      <created>1566134381264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566134381264</updated>
+      <workItem from="1566134382414" duration="8939000" />
+      <workItem from="1566739134740" duration="73466000" />
+      <workItem from="1567430490890" duration="73840000" />
+      <workItem from="1568013838454" duration="64945000" />
+      <workItem from="1591000289566" duration="71691000" />
+    </task>
+    <task id="LOCAL-00001" summary="tictactoe">
+      <created>1566995263556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566995263556</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tictactoe">
+      <created>1566999897476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566999897476</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tictactoe">
+      <created>1567000006800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567000006800</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tictactoe">
+      <created>1567066795418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567066795418</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tictactoe">
+      <created>1567596051150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567596051150</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixes">
+      <created>1567604571849</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567604571849</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixes">
+      <created>1567934885892</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567934885892</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixes">
+      <created>1567962486040</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567962486040</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tictactoe" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/reducers/index.js</url>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
